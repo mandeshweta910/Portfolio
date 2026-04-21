@@ -1,0 +1,124 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    background: #f4f6f9;
+}
+
+/* Header */
+header {
+    background: linear-gradient(to right, #4e54c8, #8f94fb);
+    color: white;
+    text-align: center;
+    padding: 40px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 40px;
+}
+
+/* Sections */
+section {
+    background: white;
+    margin: 20px;
+    padding: 30px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0,0,0,0.1);
+}
+
+h2 {
+    color: #4e54c8;
+}
+
+/* Skills */
+.skills span {
+    background: #8f94fb;
+    color: white;
+    padding: 8px 15px;
+    margin: 5px;
+    display: inline-block;
+    border-radius: 20px;
+}
+
+/* Certificates Grid */
+.certificates {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+    gap: 20px;
+}
+
+/* Card */
+.card {
+    border: 1px solid #ddd;
+    padding: 15px;
+    border-radius: 10px;
+    transition: 0.3s;
+    text-align: center;
+}
+
+.card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 5px 15px rgba(0,0,0,0.2);
+}
+
+/* Links */
+.card a {
+    text-decoration: none;
+    color: #4e54c8;
+    font-weight: bold;
+}
+
+/* Footer */
+footer {
+    text-align: center;
+    background: #4e54c8;
+    color: white;
+    padding: 15px;
+}
+/* Contact Section */
+#contact {
+    text-align: left;
+}
+
+/* Container */
+.contact-container {
+    max-width: 500px;
+    margin: 20px 0;   /* left aligned */
+    padding: 20px;
+    background: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 12px rgba(0,0,0,0.1);
+}
+
+/* Text styling */
+.contact-container p {
+    font-size: 16px;
+    margin: 10px 0;
+    padding: 8px;
+    border-bottom: 1px solid #eee;
+}
+
+.contact-container p:last-child {
+    border-bottom: none;
+}
+
+/* Label color */
+.contact-container strong {
+    color: #4e54c8;
+}
+
+/* Hover effect */
+.contact-container p:hover {
+    background: #f4f6ff;
+    border-radius: 6px;
+}
+
+/* Links */
+.contact-container a {
+    text-decoration: none;
+    color: #333;
+}
+
+.contact-container a:hover {
+    color: #4e54c8;
+}
